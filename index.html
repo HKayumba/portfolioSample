@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Honore Kayumba</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    </head>
+
+
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfo<span>lio</span></span></a>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- home page design-->
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, I'm Honore <span>Kilonda</span> Kayumba</h1>
+                <div class="text-animate">
+                    <h5>
+                        <span>F</span><span>u</span><span>l</span><span>l </span>
+                        <span>S</span><span>t</span><span>a</span><span>c</span><span>k </span>
+                        <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+                    </h5>
+                </div>
+                <p>Welcome to my world of creativity and innovation! I am a passionate tech enthusiast with a diverse skill set in Full Stack Development, UI/UX Design, and Mobile App Development.</p>
+                
+                <div class="btn-box">
+                    <a href="#" class="btn">Hire Me</a>
+                    <a href="#" class="btn">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/honore-k-kayumba-915984247/" target="_blank" rel="noopener"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1U0rRkEYxvHfQykrsrFSXoqFKFl5KQsfQ76AslA2VvZKSfkG8jFkIUXWkuRtZaVsWCg0NUfTOFHPeLJg6tQ953Rf/3uue2ZOQ4tHo8X66gCDeMXNT8BzwDaWo/AmVkshKWAE55lgP25LIN8BBkqtyi3awVKseAsrJdWH3LomD8cmX5aK1wGm0RGFn3Ec4wl0xfgJJ+jBLMbQjj18KipfwT16o9AVhmJ8iJkYX2A9Cqb5YWuvYSNdeTOAB3TGp87FeexXH5oBVLkBdIdxtCWkYNVCKWAXi1FkDgcJ4AyjpYBwKEMvqhFW0hcnj+guBYSd9pIATjGZzD+s/6oH1wgXXxjpLgrz4PlbIniEqX9AddD+uEV1R7/o3a/89IsqzpPfAXF0UxkpbL/qAAAAAElFTkSuQmCC"/></a>
+                <a href="https://twitter.com/Honore_727?s=09" target="_blank" rel="noopener"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYpJREFUSEvd1bFLVmEUx/HPa0GC0VRDoJhBRFAR4aSjERSBKSFF0JCDSHtRFP4BujgoLRGBS4uDIDS4iLiEgVFDk1EQBeEkQZqgHLgvXG73Xu/7wrv4bPc5z/l9n3Oec86tafGqtVjf4QN04M8BaTuBCdxCD/5hBs9wGoPJ917opFN0BJ8xgk8lkCUM5Ni/owv38LZuTwPO4Ct+YwirOSJX8aEEvoZlzGE9G0E7tnA0EXiFF/iZEryfOBcxIr2P8CYvgtiLW/dlvFewgPe4gumSCF7jYdqeTtFxnMc7nGyyPybxuAjQiW/YxKkmAZGe2SJAGzbQ3aR4uF3AlyJA7A8nJVZ/6EZYUYFnsw55oyL64DkuNaKOcbysAriJxQbFo8nOYacKIM5EHT+oCNlFf1LG/7kUTdN48It4irsloJg3o4j6z115gBh4vXiCGyXifxGdPV8WaRpwDVO4nBmCef7RjGOI3JeubAQxiu/gNq7jGLbxCz8QkzRu/PEg4br98P3RqkZe+VzLU7QP6ls9Gf+7N38AAAAASUVORK5CYII="/></a>
+                <a href="https://www.facebook.com/honore.kayumba.79?mibextid=ZbWKwL" target="_blank" rel="noopener"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOVJREFUSEvt1DFKQ0EQxvFfChHraOMRtEthYZPGAwREb2DQMk0qG4v0dhFs7WIjthYWtnqABFIqaK4QCA+mCJKw7OM9SJGtht2d7z87szMNNa9Gzfo2DnCMAU6wj2884XZdJnJecIgpdv+JPeOiCsAQ1yuERrisAvCJVgi94wzz1CfJSdEvDkLwBg8p8eI8BzBDM0S7eKwCUOT2KIT62Av7FV9hf+CtbA2KH3KeiLSH+zoBHbyUBdyhHc6n2Al7jJ+wrzApC1j2+4vuLfYqK/IWkNVo2xokJ0vtKUpGsOpCzjTdTMACXwcqGZt877oAAAAASUVORK5CYII="/></a>
+                <a href="https://instagram.com/honore_727?igshid=MzMyNGUyNmU2YQ==" target="_blank" rel="noopener"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcpJREFUSEvF1T3Ij2EUBvDf6yNJiSRlsCDJdxgxGcmAUixGohhkkJLBoEQxWQmDxCSLZBELkpQMysSiUPLdpfv/drs9T943/XvP9DznnPtc97nOxz1iyDIy5PgmDGAhDmMDltN7kZ94hvs4i5ctI10Z7CvOU8dJ31fsx8X6XAuwFg8xaZzBB+7fsA5PBooW4Aa2jSP4W6zADpwv565jex/AayzoAHiDU3iOOViCo4h/AHLrR+XcKyzqA/iIGQ3AnXKjD5hbbO+wDLfxCbMwr9jiN7MLILx/b4In0OISbDc2IZ1zD5cwuXRQfSx1GG2QugZRfmkATuMILiDdVUs4P4Bb2FIZcskpXRlEmVarZS9ulhtnHmp5ilU4jhOV4UfJ7LeqziDfMdaSvr6Ku1jZ2B5jDY7hZGMbjdu2afitJTzvwTkcbGyZ3EMlw62VrbcG8WkBktFqTMcubCyBUuQrmNZR5M/F/y+Kouhq0/R6hi+U1JI9FfrmN/r3mD3QtRRlWY0OSVO4TGg9aJubwIPfF1jaB3ANO3sOjlV9GZmZTorW48F/LrsszLRwJ0CUQ13XA+D6wcky65P6wTmDLLo/ZMKezLEW9J9+Q8/gFzNKWBk2yoMrAAAAAElFTkSuQmCC"/></a>
+            </div>
+
+            <div class="home-imgHover"></div>
+        </section>
+
+        <!--about section design-->
+
+        <section class="about" id="about">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <div class="about-img">
+                <img src="Honore-background.jpg" alt="">
+                <span class="circle-spin"></span>
+            </div>
+
+            <div class="about-content">
+                <h3>Full Stack Developer</h3>
+                <p>I am a highly motivated and devoted Software Engineering student with an unwavering passion for technology and a lifelong hunger 
+                    for learning. Throughout my academic journey, I have cultivated a deep-rooted interest in software development, 
+                    from creating efficient algorithms to designing user-friendly interfaces. I am a self-motivated individual who thrives on 
+                    continuous improvement, consistently seeking out opportunities to expand my knowledge and skills in order to stay at the 
+                    forefront of the rapidly evolving IT industry.</p>
+                    <!--
+                <p>My strong foundation in programming, problem-solving, and collaborative teamwork has given me a range of abilities for solving 
+                    difficult tasks and working well in varied teams. I believe in the power of technology to promote innovation and transformation, 
+                    and I'm excited to apply my technical knowledge to creative projects.</p>
+
+                <p>In addition to my technical abilities, I am dedicated to personal and professional development, realizing that flexibility and 
+                    a hunger for knowledge are essential in this highly competitive field. I'm eager to take on new challenges and chances, expanding 
+                    my knowledge and contributing to the exciting developments in technology.</p>
+
+                <p>As I advance in my software engineering career, I'm excited to work with like-minded professionals and creative thinkers 
+                    who share my enthusiasm for using technology's ability to bring about change. I am looking forward to developing a portfolio of 
+                    new projects that will not only display my skills but will also benefit the global tech community.</p>
+                    -->
+                    <p>
+                        <a href="#" class="button">Read More</a>
+                    </p>
+            </div>
+        </section>
+
+        <!--education section design-->
+
+        <section class="education" id="education">
+            <h1 class="heading">My <span>Journey</span></h1>
+
+        <div class="education-container">
+            <h2 class="title">Education</h2>
+            <div class="education-row">
+                <div class="education-column">
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2021 - Present</span>
+                                </div>
+                                <h3>Bachelor's Degree in Computer Science</h3>
+                                <p>Namibia University of Science and Technology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-column">
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2007 - 2019</span>
+                                </div>
+                                <h3>High School Diploma</h3>
+                                <p>Nsanga Le Thanzie School</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-container">
+            <h2 class="title">Experience</h2>
+            <div class="education-row">
+                <div class="education-column">
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>March 2023 - May 2023</span>
+                                </div>
+                                <h3>Reasearcher</h3>
+                                <p>Demola</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-column">
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>July 2022 - July 2023</span>
+                                </div>
+                                <h3>Lead</h3>
+                                <p>Google Developer Student Club</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="certificate">
+                <h1 class="title">Certificates</h1>
+                <div class="cards">
+
+                    <div class="skill-card">
+                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-679fe6cc-f249-4653-aa23-4d8b1d3abc3f.pdf" target="_blank" rel="noopener">
+                            <img src="udemy.jpeg" alt="">
+                            <h2>Matering Full Stack Development</h2>
+                        </a>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <a href="https://portal.demola.net/certificates/0411152417210-2542e21" target="_blank" rel="noopener">
+                            <img src="demola.jpeg" alt="">
+                            <h2>Demola</h2>
+                        </a>
+                    </div>
+
+                    <div class="skill-card">
+                        <a href="https://drive.google.com/file/d/1C8hJ_gzh6DXYrm3VXNEcm6mGskybsHar/view" target="_blank" rel="noopener">
+                            <img src="Kajaani University.png" alt="">
+                            <h2>Kajaani University of Applied Science</h2>
+                        </a>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <a href="https://drive.google.com/file/d/1yeP0DdUPxqhKlGVEGO6w7zdUz9GAcY-U/view" target="_blank" rel="noopener">
+                            <img src="GDSC-removebg-preview.png" alt="">
+                            <h2>Google Developer Club</h2>
+                        </a>
+                    </div>
+
+                    <div class="skill-card">
+                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-79162d39-a325-4707-8b9e-194a961504ea.pdf" target="_blank" rel="noopener">
+                            <img src="Python_logo_icon.png" alt="">
+                            <h2>Python BootCamp</h2>
+                        </a>
+                    </div>
+
+                    
+
+                    <div class="skill-card">
+                        <a href="https://www.freecodecamp.org/certification/HonoreKayumba/responsive-web-design" target="_blank" rel="noopener">
+                            <img src="free code camp.jpeg" alt="">
+                            <h2>Responsive Web Design</h2>
+                        </a>
+                        
+                    </div>
+
+                    <div class="skill-card">
+                        <a href="https://drive.google.com/file/d/17qc6bu3yEfPnua5vUq1jQfgt-x0I4ZS7/view" target="_blank" rel="noopener">
+                            <img src="common wealth of learning.png" alt="">
+                            <h2>Introduction to AI for IT and Non-IT Professionals</h2>
+                        </a>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="R (1).png" alt="">
+                        <h2>AWS</h2>
+                    </div>
+                    <!--
+                    <p>
+                        <a href="#" class="button">View All</a>
+                    </p>
+                    -->
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--skills design section-->
+
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React, etc.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Adobe XD, Figma, Sketch, etc.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database Management</h3>
+                <p>SQL, NoSQL, MongoDB, etc.</p>
+            </div>
+            </div>
+        </section>
+
+        
+
+        <!-- projects design section-->
+
+        <section class="projects" id="projects">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="Boundless Interaction.jpg" alt="Boundless Interaction">
+                    <h3>Boundless Interaction</h3>
+                    <p>Enables people to interact using 
+                        telepresence, emotion recognition, virtual 
+                        social spaces, biometric authentication, 
+                        and AI assistants</p>
+                    <p>
+                        <a class="view-project" href="#" target="_blank" rel="noopener">View Project</a>
+                    </p>
+                </div>
+                <div class="project-card">
+                    <img src="Boundless Interaction.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Enables people to interact using 
+                        telepresence, emotion recognition, virtual 
+                        social spaces, biometric authentication, 
+                        and AI assistants</p>
+                        <p>
+                            <a class="view-project" href="#" target="_blank" rel="noopener">View Project</a>
+                        </p>
+                </div>
+                <div class="project-card">
+                    <img src="Boundless Interaction.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Enables people to interact using 
+                        telepresence, emotion recognition, virtual 
+                        social spaces, biometric authentication, 
+                        and AI assistants</p>
+                        <p>
+                            <a class="view-project" href="#" target="_blank" rel="noopener">View Project</a>
+                        </p>
+                </div>
+                <div class="project-card">
+                    <img src="Boundless Interaction.jpg" alt="Project 3">
+                    <h3>Project 4</h3>
+                    <p>Enables people to interact using 
+                        telepresence, emotion recognition, virtual 
+                        social spaces, biometric authentication, 
+                        and AI assistants</p>
+                        <p>
+                            <a class="view-project" href="#" target="_blank" rel="noopener">View Project</a>
+                        </p>
+                </div>
+                <div class="project-card">
+                    <img src="Boundless Interaction.jpg" alt="Project 3">
+                    <h3>Project 5</h3>
+                    <p>Enables people to interact using 
+                        telepresence, emotion recognition, virtual 
+                        social spaces, biometric authentication, 
+                        and AI assistants</p>
+                        <p>
+                            <a class="view-project" href="#" target="_blank" rel="noopener">View Project</a>
+                        </p>
+                </div>
+                <div class="project-card">
+                    <img src="Boundless Interaction.jpg" alt="Project 3">
+                    <h3>Project 6</h3>
+                    <p>Enables people to interact using 
+                        telepresence, emotion recognition, virtual 
+                        social spaces, biometric authentication, 
+                        and AI assistants</p>
+                        <p>
+                            <a class="view-project" href="#" target="_blank" rel="noopener">View Project</a>
+                        </p>
+                </div> 
+            </div>
+
+            <p>
+                <a class="button">See All</a>
+            </p>
+            <br>
+            <br>
+            <br>
+        </section>
+
+        <!--Contacts design section-->
+
+        <section class="contact" id="contact">
+
+            <div class="contact-container">
+                <div class="contact-content">
+                    <h2 class="heading-1">Contact <span>Me</span></h2>
+                    <p> </p>
+                    <p>Have any questions or want to work together? Feel free to get in touch.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder=" Enter Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write Your Message here..." required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+           
+        </section>
+        <!--Footer design-->
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Honore <span>Kilonda</span> Kayumba</h2>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-email">Email: honorekayumba6@gmail.com</p>
+                    <p class="contact-phone">Phone: (+264) 085 739 8987</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/honore-k-kayumba-915984247/" target="_blank" rel="noopener" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/HKayumba" target="_blank" rel="noopener" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/Honore_727?s=09" target="_blank" rel="noopener" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Honore Kilonda Kayumba. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="script.javascript.js"></script>        
+    </body>
+</html> 
